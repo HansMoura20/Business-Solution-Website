@@ -349,7 +349,6 @@ a {
   font-size: 20px;
   margin-top: 15px;
   color: #007bff;
-
 }
 #testimonials span {
   font-size: 12px;
@@ -383,4 +382,35 @@ blockquote::after {
   box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: 0.5s;
+}
+
+/* ========================
+        Contact
+======================== */
+#contact {
+  background: #efefef;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #777;
+}
+.contact-form {
+  padding: 15px;
+}
+.form-control {
+  border-radius: 0 !important;
+  border: none !important;
+}
+::placeholder {
+  color: #999 !important;
+}
+.follow {
+  background: #fff;
+  padding: 10px;
+  margin: 15px;
+}
+.contact-info .fab,
+.contact-info .fas {
+  margin: 10px;
+  color: #007bff;
+  font-weight: bold;
 }
