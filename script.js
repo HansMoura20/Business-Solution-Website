@@ -14,3 +14,9 @@ function clickHandler(e) {
     behavior: "smooth"
   });
 }
+
+// Get the current year
+const currentYear = document.querySelector('#currentYear');
+today = new Date();
+const year = today.getFullYear();
+currentYear.textContent = year;
